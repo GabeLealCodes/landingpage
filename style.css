@@ -1,6 +1,6 @@
 section {
   /* display: flex; */
-  border: 2px solid black;
+  border: 2px solid red;
 }
 
 ul {
@@ -9,6 +9,7 @@ ul {
   align-items: center;
   justify-content: end;
   gap: 1.5em;
+  
 }
 
 .Logo {
@@ -16,4 +17,9 @@ ul {
   font-size: 1.2em;
   font-weight: bold;
   
+}
+
+main {
+  display: flex;
+
 }
