@@ -6,7 +6,38 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0em 0em;
 }
+
+header {
+  background-color: #1f2937;
+  padding: 1em 3em;
+}
+
+ul {
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.logo {
+  font-size: 24px;
+  flex: 5;
+  justify-self: left;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 18px;
+  flex: 1;
+  text-align: right;
+}
+
 
 /* 
 dark background color (hero and footer)
