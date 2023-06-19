@@ -40,3 +40,12 @@ button {
 .hero {
   font-size: 48px;
 }
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  text-align: center;
+}
