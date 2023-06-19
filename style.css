@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 section {
   /* display: flex; */
   border: 2px solid red;
@@ -22,4 +26,17 @@ ul {
 main {
   display: flex;
 
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: .3em 1.2em;
+  font-weight: bold;
+
+}
+
+.hero {
+  font-size: 48px;
 }
