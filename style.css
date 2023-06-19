@@ -38,8 +38,16 @@ ul {
   text-align: right;
 }
 
+.main {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
 
-/* 
+h1 {
+  margin: 0;
+}
+
+/*
 dark background color (hero and footer)
 #1F2937
 
