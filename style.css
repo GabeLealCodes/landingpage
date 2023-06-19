@@ -1,3 +1,19 @@
-header {
+section {
+  /* display: flex; */
+  border: 2px solid black;
+}
+
+ul {
   display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: end;
+  gap: 1.5em;
+}
+
+.Logo {
+  flex: 2;
+  font-size: 1.2em;
+  font-weight: bold;
+  
 }
