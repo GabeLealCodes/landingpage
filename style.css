@@ -2,9 +2,20 @@
   font-family: 'Roboto', sans-serif;
 }
 
-section {
-  /* display: flex; */
-  border: 2px solid red;
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+.Logo {
+  font-size: 24px;
+  flex: 2;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 ul {
@@ -14,19 +25,28 @@ ul {
   justify-content: end;
   gap: 1.5em;
   list-style-type: none;
-}
-
-.Logo {
-  flex: 2;
-  font-size: 1.2em;
-  font-weight: bold;
-  
+  font-size: 18px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 main {
   display: flex;
   background-color: #1f2937;
+  color: #f9faf8;
+}
 
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+main > p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 button {
@@ -49,6 +69,28 @@ div {
 
 h2 {
   text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+p {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 36px;
+  font-weight: thin;
+  font-style: italic;
+}
+
+cite {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+  display: block;
+  margin-top: 1em;
 }
 
 footer {
@@ -58,6 +100,7 @@ footer {
 footer > div {
   display: block;
 }
+
 
 
 /* colors and font styles
