@@ -135,6 +135,7 @@ blockquote {
 blockquote > cite {
   display: block;
   font-size: 18px;
+  font-weight: 900;
   text-align: right;
 }
 
@@ -149,6 +150,7 @@ blockquote > cite {
   gap: 2em;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .cta-button {
