@@ -102,16 +102,20 @@ div.img {
 }
 
 figure {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   align-self: center;
 }
 
 figcaption {
   text-align: center;
+  max-width: 10em;
 }
 
 figure > img {
   border: 3px solid #3882F6;
+  border-radius: 10px;
 }
 
 
