@@ -81,12 +81,21 @@ div.img {
   background-color: rgb(110, 116, 124);
 }
 
-img {
+/* img {
   max-width: 80%;
   height: auto;
+} */
+
+.information > h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
 }
 
-
+figure > img {
+  border: #3882F6;
+}
 
 /*
 dark background color (hero and footer)
